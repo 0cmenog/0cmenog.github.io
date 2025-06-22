@@ -1,0 +1,4 @@
+<!-- Fichier qui complète le ficher par défaut "head.html", qui définit notamment les imports et inclusions de CSS -->
+{% if page.custom_css %}
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+{% endif %}
