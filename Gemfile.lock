@@ -93,8 +93,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  html_proofer (~> 5.0)
   http_parser.rb (~> 0.6.0)
-  html-proofer (~> 5.0)
   jekyll (~> 4.4.1)
   jekyll-seo-tag
   jekyll-sitemap
