@@ -1,0 +1,6 @@
+- type: github
+  icon: "fab fa-github"
+  url: 'https://github.com/0cmenog'
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true

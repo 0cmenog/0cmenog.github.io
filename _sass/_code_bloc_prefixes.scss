@@ -1,0 +1,37 @@
+---
+---
+/* Factorisation de la mise en forme pour les prompts */
+div.highlighter-rouge.prompt .rouge-code pre {
+  position: relative;
+  padding-left: 12ch;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: monospace;
+  background-color: #e64343 !important;
+  line-height: 1.5;
+}
+
+/* Apparence note (> dans Obsidian) */
+blockquote {
+  background-color: #f8f9fa;
+  border-left: 4px solid #812953;
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 4px;
+}
+
+/* Apparence blocs de code */
+.highlight, pre.highlight {
+  background-color: #f5f5f5;
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+/* Apparence en-tête bloc de code */
+.code-header {
+  background-color: #e0e0e0;
+  font-family: monospace;
+  font-size: 0.9em;
+  color: #333;
+}
