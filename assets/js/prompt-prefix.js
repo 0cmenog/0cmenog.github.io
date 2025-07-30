@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
       "prompt-root-pm1": "root@PM1:~# ",
       "prompt-root-pm2": "root@PM2:~# ",
       "prompt-root-serveur": "root@serveur:~# ",
-      "prompt-root-serveur-ssl": "root@serveur:/etc/ldap/ssl# "
+      "prompt-root-serveur-ssl": "root@serveur:/etc/ldap/ssl# ",
+      "prompt-user-vm": "user@vm:~ ",
+      "prompt-user-vm-custom-iso": "user@vm:~/custom-iso ",
     };
 
     const className = Array.from(block.closest('div[class*="prompt-"]').classList)
